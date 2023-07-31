@@ -8,7 +8,6 @@ public class BulletsReward : Reward
     private int _bullets;
     private readonly IBulletsGiver _bulletsGiver;
 
-    [Inject]
     public BulletsReward(int gunId, int bullets, IBulletsGiver bulletsGiver)
     {
         _gunId = gunId;
